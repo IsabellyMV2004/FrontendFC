@@ -1,7 +1,7 @@
 {
   "name": "sistema",
   "version": "0.1.0",
-  "homepage": "http://IsabellyMV2004.github.io/FrontendTrabalho",
+  "homepage": "http://IsabellyMV2004.github.io/FrontendFC",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.4.0",
