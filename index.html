@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="indexcontroller.js"></script>
+    <title>Musica Front-end</title>
+</head>
+<body onload="carregarSugestao()">
+    <div>
+        <p>Sugestão de Leitura:</p>
+        <p id="sugestao"></p>
+    </div>
+    <div>
+        <input type="text" placeholder="Informe o nome da musica" id="titulo"/>
+        <button onclick="buscarMusicas()">pesquisar</button>
+        <p id="result"></p>
+    </div>
+    <hr>
+    <div>
+        <form method="post" id="fmusica">
+            <p><input type="text" placeholder="Informe o titulo da musica" name="titulo"/></p>
+            <p><input type="text" placeholder="Informe o artista da musica" name="artista"/></p>
+            <p><input type="text" placeholder="Informe o estilo da musica" name="estilo"/></p>
+            <p><input type="text" placeholder="Informe o ano de publicação" name="anoPublicacao"/></p>
+        </form>
+        <button onClick="cadMusica()">Cadastrar musica</button>
+    </div>
+</body>
+</html>
